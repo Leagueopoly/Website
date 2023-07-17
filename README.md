@@ -1,2 +1,2 @@
-# Republic of Melonia Website
-This is the codebase of the official Republic of Melonia website.
+# Leagueopoly Website
+This is the codebase of the official Leagueopoly website.
