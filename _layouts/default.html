@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+    <nav class="main-nav">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+              <button onClick="toggleMenu()" type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-green-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <!--
+                  Icon when menu is closed.
+      
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <!--
+                  Icon when menu is open.
+      
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="flex flex-shrink-0 items-center">
+                <img class="h-8 w-auto" src="/img/logo.svg" alt="Logo">
+              </div>
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex space-x-4">
+                  {% if page.url == "/" %}
+                    <a href="/" class="text-white rounded-md px-3 py-2 text-md font-semibold" aria-current="page">Home</a>
+                  {% else %}
+                    <a href="/" class="text-gray-300 rounded-md px-3 py-2 text-md" aria-current="page">Home</a>
+                  {% endif %}
+                  
+                  {% if page.url contains "/news" %}
+                    <a href="/news" class="text-white rounded-md px-3 py-2 text-md font-semibold" aria-current="page">News</a>
+                  {% else %}
+                    <a href="/news" class="text-gray-300 rounded-md px-3 py-2 text-md" aria-current="page">News</a>
+                  {% endif %}
+                  
+                  {% if page.url contains "/players" %}
+                    <a href="/players" class="text-white rounded-md px-3 py-2 text-md font-semibold" aria-current="page">Players</a>
+                  {% else %}
+                    <a href="/players" class="text-gray-300 rounded-md px-3 py-2 text-md" aria-current="page">Players</a>
+                  {% endif %}
+                  
+                  {% if page.url contains "/stats" %}
+                    <a href="/stats" class="text-white rounded-md px-3 py-2 text-md font-semibold" aria-current="page">Stats</a>
+                  {% else %}
+                    <a href="/stats" class="text-gray-300 rounded-md px-3 py-2 text-md" aria-current="page">Stats</a>
+                  {% endif %}
+                  
+                  {% if page.url contains "/standings" %}
+                    <a href="/" class="text-white rounded-md px-3 py-2 text-md font-semibold" aria-current="page">Standings</a>
+                  {% else %}
+                    <a href="/" class="text-gray-300 rounded-md px-3 py-2 text-md" aria-current="page">Standings</a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center space-x-2 sm:static sm:inset-auto md:inline-flex hidden">
+                <a href="https://discord.gg/dxyWmev9k5">   
+                    <div class="aspect-square box grad-discord w-12 h-12 flex justify-center items-center">
+                        <i class="fa-brands fa-discord text-white text-xl"></i>
+                    </div>
+                </a>
+                
+                <a href="https://twitter.com/leagueopoly">
+                    <div class="aspect-square box grad-twitter w-12 h-12 flex justify-center items-center">
+                        <i class="fa-brands fa-twitter text-white text-xl"></i>
+                    </div>
+                </a>
+
+                <a href="https://youtube.com/@leagueopoly">
+                    <div class="aspect-square box grad-youtube w-12 h-12 flex justify-center items-center">
+                        <i class="fa-brands fa-youtube text-white text-xl"></i>
+                    </div>
+                </a>
+
+                <a href="https://twitch.com/therandommelon" class="lg:inline-flex hidden">
+                    <div class="aspect-square box grad-twitch w-12 h-12 flex justify-center items-center">
+                        <i class="fa-brands fa-twitch text-white text-xl"></i>
+                    </div>
+                </a>
+
+                <a href="https://instagram.com/leagueopoly" class="hidden lg:inline-flex">
+                    <div class="aspect-square box grad-instagram w-12 h-12 flex justify-center items-center">
+                        <i class="fa-brands fa-instagram text-white text-xl"></i>
+                    </div>
+                </a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden hidden" id="mobile-menu">
+            <div class="space-y-1 px-2 pb-3 pt-2">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a href="/home" class="bg-green-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
+                <a href="/news" class="text-gray-200 hover:bg-green-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">News</a>
+                <a href="#" class="text-gray-200 hover:bg-green-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Schedule</a>
+                <a href="#" class="text-gray-200 hover:bg-green-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Players</a>
+                <a href="#" class="text-gray-200 hover:bg-green-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Stats</a>
+                <a href="#" class="text-gray-200 hover:bg-green-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Standings</a>
+                <div class="inline-flex px-3 py-2 space-x-2">
+                    <a href="https://discord.gg/dxyWmev9k5">   
+                        <div class="aspect-square box grad-discord w-12 h-12 flex justify-center items-center">
+                            <i class="fa-brands fa-discord text-white text-xl"></i>
+                        </div>
+                    </a>
+                    
+                    <a href="https://twitter.com/leagueopoly">
+                        <div class="aspect-square box grad-twitter w-12 h-12 flex justify-center items-center">
+                            <i class="fa-brands fa-twitter text-white text-xl"></i>
+                        </div>
+                    </a>
+    
+                    <a href="https://youtube.com/@leagueopoly">
+                        <div class="aspect-square box grad-youtube w-12 h-12 flex justify-center items-center">
+                            <i class="fa-brands fa-youtube text-white text-xl"></i>
+                        </div>
+                    </a>
+    
+                    <a href="https://twitch.com/therandommelon">
+                        <div class="aspect-square box grad-twitch w-12 h-12 flex justify-center items-center">
+                            <i class="fa-brands fa-twitch text-white text-xl"></i>
+                        </div>
+                    </a>
+    
+                    <a href="https://instagram.com/leagueopoly">
+                        <div class="aspect-square box grad-instagram w-12 h-12 flex justify-center items-center">
+                            <i class="fa-brands fa-instagram text-white text-xl"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mx-auto container p-8">
+        {{ content }}
+    </div>
+
+    <script>
+        let mobileMenu = document.getElementById('mobile-menu');
+        let menuOpen = false;
+
+        function toggleMenu() {
+            if (!menuOpen) {
+                mobileMenu.className = "sm:hidden";
+                menuOpen = true;
+            } else {
+                mobileMenu.className = "sm:hidden hidden";
+                menuOpen = false;
+            }
+        }
+    </script>
+{% include footer.html %}
+</body>
+</html>

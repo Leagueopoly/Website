@@ -1,0 +1,49 @@
+---
+title: News
+desc: Official news from Leagueopoly.
+description: Official news from Leagueopoly.
+keywords: news, league news, leagueopoly news
+layout: default
+permalink: /news/
+---
+
+<h2 class="mb-4 mt-4 text-center">Latest news</h2>
+{% for post in site.posts limit:5 %}
+<div class="homepage-card">
+	<div class="card mb-3 clearfix">
+		<div class="card-body">
+		<div class="float-left">
+		{% if post.badge-text %}
+			<h4 class="card-title"><span class="badge badge-danger">{{ post.badge-text }}</span> {{ post.title }}</h4>
+		{% else %}
+			<h4 class="card-title">{{ post.title }}</h4>
+		{% endif %}
+		
+		{% if post.via %}
+		<p class="card-text">
+			{{ post.desc }}<br>
+			<span class="text-muted">Posted on {{ post.date | date: '%B %d, %Y' }} on {{ post.via }}</span>
+		</p>
+		{% else %}
+		<p class="card-text">
+			{{ post.desc }}<br>
+			<span class="text-muted">Posted on {{ post.date | date: '%B %d, %Y' }}</span>
+		</p>
+		{% endif %}
+		</div>
+		{% if post.via %}
+			<a href="{{ post.via-link }}" class="btn btn-primary mt-2">Read more at {{ post.via }}</a>
+		{% else %}
+			<a href="{{ post.url }}" class="btn btn-primary mt-2">Read more</a>
+		{% endif %}
+		</div>
+	</div>
+</div>
+{% endfor %}
+</div>
+
+<style>
+	.text-center a {
+		text-decoration: none;
+	}
+</style>

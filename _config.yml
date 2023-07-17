@@ -1,0 +1,19 @@
+title: Leagueopoly
+email: michael@therandommelon.com
+description: The official website of Leagueopoly, an esports league based on the online Monopoly clone Richup.io.
+baseurl: ""
+url: https://leagueopoly.com
+urlnp: leagueopoly.com
+twitter: https://twitter.com/Leagueopoly
+github: https://github.com/MeloniaGov/main-site
+permalink: /news/:year/:title
+desc: The official website of Leagueopoly, an esports league based on the online Monopoly clone Richup.io.
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

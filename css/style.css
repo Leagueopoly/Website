@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(180deg, #7CA064 0%, #3D5A21 100%, #264E00 100%) fixed;
+    color: white;
+    font-family: 'Roboto Condensed', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.35 !important;
+}
+
+.main-nav {
+    background: linear-gradient(0deg, #578148 0%, #7CA064 100%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
+}
+
+.box {
+    border-radius: .75rem;
+    box-shadow: 0px 0px 6px 0px #000 inset;
+}
+
+.grad-discord {
+    background: linear-gradient(0deg, #6997D5 0%, #454EB9 0.01%, #5865F2 100%);
+}
+
+.grad-twitter {
+    background: linear-gradient(0deg, #206C9B 0.01%, #1DA1F2 100%);
+}
+
+.grad-youtube {
+    background: linear-gradient(0deg, #9C0F0F 0.01%, #F00 100%);
+}
+
+.grad-twitch {
+    background: linear-gradient(0deg, #331E52 0%, #9146FF 100%);
+}
+
+.grad-instagram {
+    background: linear-gradient(0deg, #FBAD50 0%, #8A3AB9 100%);
+}
+
+.box-featured {
+    background: linear-gradient(0deg, #489315 0%, #78BA38 100%);
+    box-shadow: 0px 0px 6px 0px #000 inset;
+}
+
+.default-text-shadow {
+    text-shadow: 0px 4px 4px #00000040;
+}
+
+.default-inset {
+    box-shadow: 0px 0px 6px 0px #000 inset;
+}
+
+.img-shadow {
+	position: relative;
+	max-width: 100%;
+	float: left;
+}
+
+.img-shadow::before {
+    content: "";
+    border-radius: .75rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 8px 0px #000 inset;
+} 
+	   
+.img-shadow img {
+	float: left;
+}
+
+.homepage-font-size {
+    font-size: 1.3rem;
+}
+
+.default-btn {
+    border-radius: 0.5rem;
+    background: linear-gradient(0deg, #F7941E 0%, #FBBF66 100%);
+    box-shadow: 0px 0px 3px 0px #000 inset;
+    transition: all 200ms ease;
+}
+
+.default-btn:hover {
+    background: linear-gradient(0deg, #ce7d1b 0%, #7e5d2a 100%);
+}

@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<div class="box-featured rounded-xl p-4">
+    <div class="flex sm:flex-row flex-col">
+        <div class="rounded-lg mb-2 shadow-lg sm:w-2/5 w-full">
+            <img class="rounded-xl" src="/img/{{ page.image }}" />
+        </div>
+        <div class="card-body flex flex-col justify-center items-center p-3 pr-0">
+            <div class="float-left text-center">
+                <h4 class="homepage-font-size font-semibold default-text-shadow my-2">{{ page.title }}</h4>
+            
+                <h4 class="post-desc">
+                    {{ page.desc }}
+                </h4>
+
+                <h4 class="text-gray-200 my-2">
+                    Posted on {{ page.date | date: '%B %d, %Y' }}
+
+                    {% if page.via %}
+                        on {{ page.via }}
+                    {% endif %}
+
+                    {% if page.author %}
+                        by {{ page.author }}
+                    {% endif %}
+                </h4>
+            </div>
+        </div>
+    </div>
+    
+    <hr />
+
+    <div class="mx-auto mt-2">
+        {{ content }}
+    </div>
+</div>
+
+<style>
+    body {
+        line-height: 1.5 !important;
+    }
+
+    p:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+        font-weight: 600;
+        text-shadow: 0px 4px 4px #00000040;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+        text-shadow: 0px 4px 4px #00000040;
+        font-weight: 600;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin-left: 2rem;
+        margin-bottom: .8rem;
+    }
+
+    a {
+        color: #ffd49f;
+        transition: all 200ms ease;
+    }
+
+    a:hover {
+        color: #ffb254;
+    }
+</style>

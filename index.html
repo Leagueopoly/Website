@@ -1,0 +1,38 @@
+---
+title: Home
+desc: An esports league based on the Monopoly clone Richup.io. Players compete to earn points based on their per-game ranking. Top two in each conference advance!
+description: An esports league based on the Monopoly clone Richup.io. Players compete to earn points based on their per-game ranking. Top two in each conference advance!
+keywords: homepage
+layout: default
+---
+
+<div class="flex w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
+	<div class="flex-auto sm:w-1/2 w-full">
+		<div class="box-featured p-4 rounded-2xl">
+			<b class="default-text-shadow text-xl">Featured</b><br>
+			{% assign foundFeatured = false %}
+			{% for post in site.posts %}
+				{% if post.featured and foundFeatured != true %}
+					<div class="img-shadow aspect-video rounded-lg my-2">
+						<img class="rounded-xl" src="/img/{{ post.image }}" />
+					</div>
+
+					<p class="homepage-font-size font-semibold default-text-shadow mb-1">{{ post.title }}</p>
+					<p class="text-md">{{ post.desc }}</p>
+
+					<div class="mt-4 mb-2">
+						<a href="{{ post.url }}" class="default-btn text-md default-text-shadow font-medium px-4 py-2">
+							Read more
+						</a>
+					</div>
+					{% assign foundFeatured = true %}
+				{% else %}
+					{% continue %}
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+	<div class="flex-auto sm:w-1/2 w-full">
+		<img src="/img/upcoming-games.png" />
+	</div>
+</div>
