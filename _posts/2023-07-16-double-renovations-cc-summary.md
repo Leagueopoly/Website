@@ -110,7 +110,7 @@ Game 3 was won by lainuel after TheJayJay landed on a **Surprise** space which f
 - Number of Trades: 12
 - Accepted Trades: 5
 - Most Visited Property: <img src="/img/flags/flag_ch.png" style="border: 1px solid black; display: inline; height: 18px; vertical-align: text-top;"> Shenzhen
-- Most Visits in Jail: lainuel (8 Visits)
+- Most Visits in Jail: lainuel (8 visits)
 - Highest Net Worth: lainuel ($9,404)
 
 ## Game 2
@@ -120,7 +120,7 @@ Game 3 was won by lainuel after TheJayJay landed on a **Surprise** space which f
 - Number of Trades: 16
 - Accepted Trades: 6
 - Most Visited Property: <img src="/img/flags/flag_gr.png" style="border: 1px solid black; display: inline; height: 18px; vertical-align: text-top;"> Munich
-- Most Visits in Jail: TheJayJay (5 Visits)
+- Most Visits in Jail: TheJayJay (5 visits)
 - Highest Net Worth: TheJayJay ($7,492)
 
 ## Game 3
@@ -130,7 +130,7 @@ Game 3 was won by lainuel after TheJayJay landed on a **Surprise** space which f
 - Number of Trades: 5
 - Accepted Trades: 3
 - Most Visited Property: <img src="/img/flags/flag_it.png" style="border: 1px solid black; display: inline; height: 18px; vertical-align: text-top;"> Rome
-- Most Visits in Jail: TheRandomMelon (4 Visits)
+- Most Visits in Jail: TheRandomMelon (4 visits)
 - Highest Net Worth: lainuel ($8,401)
 
 # References

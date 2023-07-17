@@ -5,7 +5,7 @@ body {
     line-height: 1.35 !important;
 }
 
-.main-nav {
+.main-nav, footer {
     background: linear-gradient(0deg, #578148 0%, #7CA064 100%);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
 }
@@ -29,6 +29,10 @@ body {
 
 .grad-twitch {
     background: linear-gradient(0deg, #331E52 0%, #9146FF 100%);
+}
+
+.grad-tiktok {
+    background: linear-gradient(0deg, #000 0%, #4A4A4A 100%);
 }
 
 .grad-instagram {

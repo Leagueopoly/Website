@@ -18,6 +18,17 @@ layout: default
 					</div>
 
 					<p class="homepage-font-size font-semibold default-text-shadow mb-1">{{ post.title }}</p>
+					<h4 class="text-gray-200 mb-2">
+						Posted on {{ post.date | date: '%B %d, %Y' }}
+	
+						{% if post.via %}
+							on {{ post.via }}
+						{% endif %}
+	
+						{% if post.author %}
+							by {{ post.author }}
+						{% endif %}
+					</h4>
 					<p class="text-md">{{ post.desc }}</p>
 
 					<div class="mt-4 mb-2">
