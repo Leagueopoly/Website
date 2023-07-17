@@ -87,3 +87,11 @@ body {
 .default-btn:hover {
     background: linear-gradient(0deg, #ce7d1b 0%, #7e5d2a 100%);
 }
+
+.header-link {
+    color: white;
+}
+
+.header-link:hover {
+    color: white;
+}
