@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="flex w-full rounded-2xl box-{{ page.conf_id }} sm:flex-row flex-col">
+    <div class="box-{{ page.player_id }} box-player p-4 sm:w-64 w-full h-64 rounded-2xl">
+        <div class="justify-center items-end w-full h-full flex">
+            <b class="default-text-shadow text-2xl">{{ page.player_name }}</b>
+        </div>
+    </div>
+	<div class="flex-auto">
+		<div class="sm:p-6 p-4 flex h-full items-center">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><p class="default-text-shadow mr-4">Conference</b></td>
+                        <td><b class="default-text-shadow text-2xl">{{ page.conference }}</p></td>
+                    </tr>
+                    <tr>
+                        <td><p class="default-text-shadow mr-4">Nationality</b></td>
+                        <td><b class="default-text-shadow text-2xl">{{ page.nationality }}</p></td>
+                    </tr>
+                    <tr>
+                        <td><p class="default-text-shadow mr-4">Online Activities</b></td>
+                        <td><b class="default-text-shadow text-2xl">{{ page.activities }}</p></td>
+                    </tr>
+                    <tr>
+                        <td><p class="default-text-shadow mr-4">Website</b></td>
+                        <td><b class="default-text-shadow text-2xl"><a href="{{ page.website_url }}">{{ page.website }}</a></p></td>
+                    </tr>
+                </tbody>
+            </table>
+		</div>
+	</div>
+</div>

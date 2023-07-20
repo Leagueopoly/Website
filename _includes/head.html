@@ -1,34 +1,56 @@
 <head>
+	{% capture pageDescription | strip_html | strip_newlines | strip %}
+		{% if page.layout == "players" %}
+			Meet {{ page.player_name }}, a player of Leagueopoly - an esports league based on the Monopoly clone Richup.io. Players compete to earn points based on their per-game ranking. Top two in each conference advance!
+		{% elsif page.desc %}
+			{{ page.desc | escape }}
+		{% else %}
+			{{ pageTitle | escape }}
+		{% endif %}
+	{% endcapture %}
+
+	{% capture pageTitle | strip_html | strip_newlines | strip %}
+		{% if page.layout == "players" %}
+			{{ page.player_name }}
+		{% else %}
+			{{ page.title | escape }}
+		{% endif %}
+	{% endcapture %}
+
 	<!-- Search Engine Meta -->
 	<meta name="robots" content="index, follow">
 	<meta name="author" content="Leagueopoly" />
-	<meta name="description" content="{% if page.desc %}{{ page.desc | escape }}{% else %}{{ page.title | escape }}{% endif %}">
+	<meta name="description" content="{{ pageDescription }}">
 	<meta name="keywords" content="leagueopoly, monopoly league, monopoly esports league, esports, {{ page.keywords | escape }}">
+
 	<!-- Open Graph  -->
-	<meta property="og:title" content="{{ page.title | escape }}">
+	<meta property="og:title" content="{{ pageTitle | escape }}">
 	<meta property="og:site_name" content="Leagueopoly">
 	<meta property="og:url" content="https://leagueopoly.com">
-	<meta property="og:description" content="{{ page.desc | escape }} ">
+	<meta property="og:description" content="{{ pageDescription }}">
 	<meta property="og:type" content="website">
 	{% if page.image %}
-	<meta property="og:image" content="https://leagueopoly.com/img/posts/{{ page.image }}">
+		<meta property="og:image" content="https://leagueopoly.com/img/{{ page.image }}">
 	{% else %}
-	<meta property="og:image" content="https://leagueopoly.com/img/melonia-logo.png">
+		<meta property="og:image" content="https://leagueopoly.com/img/melonia-logo.png">
 	{% endif %}
+
 	<!-- Twitter -->
 	{% if page.image %}
-	<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:site" content="@Leagueopoly" />
-		<meta name="twitter:title" content="{{ page.title | escape }} - {{ site.title | escape }}" />
-		<meta name="twitter:description" content="{% if page.desc %}{{ page.desc | escape }}{% else %}{{ page.title | escape }}{% endif %}" />
-		<meta name="twitter:image" content="https://leagueopoly.com/img/posts/{{ page.image }}" />
+		<meta name="twitter:title" content="{{ pageTitle | escape }} - {{ site.title | escape }}" />
+		<meta name="twitter:description" content="{{ pageDescription }}" />
+		<meta name="twitter:image" content="https://leagueopoly.com/img/{{ page.image }}" />
 	{% else %}
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:site" content="@Leagueopoly" />
-		<meta name="twitter:title" content="{{ page.title | escape }} - {{ site.title | escape }}" />
-		<meta name="twitter:description" content="{% if page.desc %}{{ page.desc | escape }}{% else %}{{ page.title | escape }}{% endif %}" />
-{% endif %}
-<title>{% if page.title %}{{ page.title }} - {% endif %} Leagueopoly</title>
+		<meta name="twitter:title" content="{{ pageTitle | escape }} - {{ site.title | escape }}" />
+		<meta name="twitter:description" content="{{ pageDescription }}" />
+	{% endif %}
+
+	<title>{% if pageTitle %}{{ pageTitle }} - {% endif %} Leagueopoly</title>
+
 	<meta name=”theme-color” content=”#5BBE18">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
