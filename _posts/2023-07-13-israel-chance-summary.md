@@ -6,7 +6,7 @@ featured: true
 image: posts/summary-s1-chance1-3.png
 keywords: game summary, leagueopoly game summary, community chest conference
 id: israel-chance-summary
-desc: Josephine bets it all on Israel and wins big, and other crazy things happened in this debut Leagueopoly event.
+desc: Josephine bets it all on Israel and wins big, Berlin hotels ultimately help players win games twice in a row, and other crazy things happened in the first ever Leagueopoly event. Here is Leagueopoly's official recap.
 author: TheJayJay
 ---
 
