@@ -49,6 +49,11 @@ body {
     box-shadow: 0px 0px 6px 0px #000 inset;
 }
 
+.box-past {
+    background: linear-gradient(0deg, #707070 0%, #3C3C3C 100%);
+    box-shadow: 0px 0px 6px 0px #000 inset;
+}
+
 .box-chest {
     background: linear-gradient(0deg, #425979 0%, #6997D5 100%);
     box-shadow: 0px 0px 6px 0px #000 inset;
@@ -107,12 +112,12 @@ body {
 }
 
 /* Chance Conference */
-.box-tom {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/tom.jpg'), lightgray 50% / cover no-repeat;
+.box-trm {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/trm.jpg'), lightgray 50% / cover no-repeat;
 }
 
-.box-scion {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/scion.jpg'), lightgray 50% / cover no-repeat;
+.box-samuel {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/samuel.jpg'), lightgray 50% / cover no-repeat;
 }
 
 .box-cstro {
@@ -124,16 +129,26 @@ body {
 }
 
 /* Community Chest */
-.box-trm {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/trm.jpg'), lightgray 50% / cover no-repeat;
+.box-ash {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/ash.png'), lightgray 50% / cover no-repeat;
 }
 
+.box-awed {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/awed.png'), lightgray 50% / cover no-repeat;
+}
+
+.box-tom {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/tom.jpg'), lightgray 50% / cover no-repeat;
+}
+
+.box-scion {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/scion.jpg'), lightgray 50% / cover no-repeat;
+}
+
+
+/* Old Players */
 .box-snhk {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/snhk.jpg'), lightgray 50% / cover no-repeat;
-}
-
-.box-samuel {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/samuel.jpg'), lightgray 50% / cover no-repeat;
 }
 
 .box-jay {
