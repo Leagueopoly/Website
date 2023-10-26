@@ -1,12 +1,12 @@
 ---
-title: Leagueopoly Season 2 - Players and Alignments
+title: Leagueopoly Season 2 - Players, Alignments, and New Rule Changes
 layout: post
 category: Announcements
 featured: true
 image: posts/announcement-s2-players.png
 keywords: announcement, leagueopoly announcement, new players, conference alignments
 id: season-two-alignments
-desc: Leagueopoly Season 2 is coming this winter! Here are the new players and conference alignments for the season.
+desc: Leagueopoly Season 2 is coming this winter! Here are the new players and conference alignments for the season, along with new rules being implemented this season.
 author: Michael Webb
 ---
 
@@ -20,6 +20,19 @@ I, as Commissioner of Leagueopoly, am proud to announce the following:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Leagueopoly Season 2 is coming this winter! Here are the new players and conference alignments for the season. <a href="https://t.co/xmzRHoq6ti">pic.twitter.com/xmzRHoq6ti</a></p>&mdash; Leagueopoly (@leagueopoly) <a href="https://twitter.com/leagueopoly/status/1717563876361879863?ref_src=twsrc%5Etfw">October 26, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# References
-- [Twitter/"X"](https://twitter.com/Leagueopoly)
+Let's also discuss what rule changes the Players' Commission has agreed to for this season:
+
+# Rule Votes and Changes
+1. The players voted down a proposal (1 yes, 6 no, 1 did not vote) that would have required a minimum/maximum time for players to vote on measures, instead of the Commissioner deciding when votes start and end. They are, therefore, leaving it to the Commissioner to decide the start/end points of votes.
+2. The players voted unanimously (7 yes, 1 did not vote) to scrap specific language in the rulebook pointing to when2meet as the required software to be used for scheduling. Instead, the handbook now states that other software can be used that is similar to when2meet. This was done in hopes of finding a better scheduling system.
+3. The players just barely rejected a motion (4 yes, 4 no) to enable Vacation Cash in the Richup.io ruleset. Votes require a proper majority to enact; therefore, a tie results in a rejection. Some players had concerns that vacation cash would extend games for far longer than they already are, which could pose a lot of issues, in addition to the cash system being unfair and that it does not conform to "default" Monopoly rules.
+4. The players voted unanimously (7 yes, 1 did not vote) to add a new exemption to the direct cash-to-cash trade rule that allows a player to be "almost in debt" to trade. They also voted unanimously (7-0-1) to make it so that the Commissioner and/or Director of Operations decides, on a case-by-case basis, what is considered "almost in debt" under this rule.
+5. The players voted unanimously (7 yes, 1 did not vote) to make a minor wording change to Gameplay Rule C6. In Season 1, the text of this rule was: "Players may not offer more than one trade at a time to the same player." In Season 2, players wanted to change "at a time" to "in a turn" to better specify what "at a time" really means.
+
+The Players' Commmision may end up making more changes to the handbook before the start of Season 2, such as a new system for sudden inabilities to make scheduled games.
+
+# References/Links
 - [Leagueopoly Handbook - Season 2](https://docs.google.com/document/d/1i7jF88yNu2AcxKogm39uCA1eF3qLij6mPUU2RDwps6g/edit?usp=sharing)
+- [Discord Server](https://discord.gg/dxyWmev9k5)
+- [Twitter/"X"](https://twitter.com/Leagueopoly)
+- [Mastodon](https://wetdry.world/@leagueopoly)
