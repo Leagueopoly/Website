@@ -39,6 +39,10 @@ body {
     background: linear-gradient(0deg, #FBAD50 0%, #8A3AB9 100%);
 }
 
+.grad-mastodon {
+    background: linear-gradient(0deg, #563ACC 0%, #6364FF 100%);
+}
+
 .box-featured {
     background: linear-gradient(0deg, #489315 0%, #78BA38 100%);
     box-shadow: 0px 0px 6px 0px #000 inset;
