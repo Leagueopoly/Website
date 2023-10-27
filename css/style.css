@@ -48,6 +48,11 @@ body {
     box-shadow: 0px 0px 6px 0px #000 inset;
 }
 
+.box-champ {
+    background: linear-gradient(0deg, #FFC842 0%, #D9A015 100%);
+    box-shadow: 0px 0px 6px 0px #000 inset;
+}
+
 .box-chance {
     background: linear-gradient(0deg, #B4225D 0%, #F54F92 100%);
     box-shadow: 0px 0px 6px 0px #000 inset;
