@@ -31,7 +31,11 @@ permalink: /news/
 					{% endif %}
 
 					{% if post.author %}
-						by {{ post.author }}
+						by {{ post.author }}{% if post.last_modified_at %},{% endif %}
+					{% endif %}
+
+					{% if post.last_modified_at %}
+						updated on {{ post.last_modified_at | date: '%B %d, %Y' }}
 					{% endif %}
 				</h4>
 

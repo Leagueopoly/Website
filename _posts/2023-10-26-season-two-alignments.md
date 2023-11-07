@@ -8,6 +8,7 @@ keywords: announcement, leagueopoly announcement, new players, conference alignm
 id: season-two-alignments
 desc: Leagueopoly Season 2 is coming this winter! Here are the new players and conference alignments for the season, along with new rules being implemented this season.
 author: Michael Webb
+last_modified_at: 2023-11-07
 ---
 
 Hello everyone,
@@ -29,7 +30,17 @@ Let's also discuss what rule changes the Players' Commission has agreed to for t
 4. The players voted unanimously (7 yes, 1 did not vote) to add a new exemption to the direct cash-to-cash trade rule that allows a player to be "almost in debt" to trade. They also voted unanimously (7-0-1) to make it so that the Commissioner and/or Director of Operations decides, on a case-by-case basis, what is considered "almost in debt" under this rule.
 5. The players voted unanimously (7 yes, 1 did not vote) to make a minor wording change to Gameplay Rule C6. In Season 1, the text of this rule was: "Players may not offer more than one trade at a time to the same player." In Season 2, players wanted to change "at a time" to "in a turn" to better specify what "at a time" really means.
 
-The Players' Commmision may end up making more changes to the handbook before the start of Season 2, such as a new system for sudden inabilities to make scheduled games.
+<s>The Players' Commmision may end up making more changes to the handbook before the start of Season 2, such as a new system for sudden inabilities to make scheduled games.</s> (Update, Nov. 7, 2023: The Players' Commission did just that, see below.)
+
+# UPDATE (Nov. 7, 2023)
+On October 26, the Players voted for a new substitution system (7 yes, 0 no, 1 did not vote) to begin usage in Season 2. In short, the Handbook now requires the Commissioner/Director of Operations to maintain a roster of "substitute players", or players that only play when a substitute is needed. When a substitute is needed, the following actions will be taken in this specific order:
+
+1. Choose a substitute player from the roster to play the games in their place.
+2. If a substitute is not available, then choose a player from the other conference to play the games in their place.
+3. If neither of these are available, attempt to seek some other person to fill in and play the games in their place.
+4. If none of these three options are available, cancel the event and reschedule.
+
+Also, if more than one player cannot make it to an event, the event is automatically canceled and rescheduled.
 
 # References/Links
 - [Leagueopoly Handbook - Season 2](https://docs.google.com/document/d/1i7jF88yNu2AcxKogm39uCA1eF3qLij6mPUU2RDwps6g/edit?usp=sharing)
