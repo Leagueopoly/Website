@@ -138,8 +138,8 @@ body {
 }
 
 /* Community Chest */
-.box-ash {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/ash.png'), lightgray 50% / cover no-repeat;
+.box-inkydink {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/inkydink.jpg'), lightgray 50% / cover no-repeat;
 }
 
 .box-awed {
@@ -154,8 +154,11 @@ body {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/scion.jpg'), lightgray 50% / cover no-repeat;
 }
 
-
 /* Old Players */
+.box-ash {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/ash.png'), lightgray 50% / cover no-repeat;
+}
+
 .box-snhk {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/snhk.jpg'), lightgray 50% / cover no-repeat;
 }
