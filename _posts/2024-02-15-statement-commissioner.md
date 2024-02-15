@@ -1,17 +1,16 @@
 ---
-title: Statement from Commissioner Michael Webb on Player Changes This Season
+title: Statement from Commissioner Michael Webb on Josephine Resignation
 layout: post
 category: Press Release
 featured: true
 image: posts/press-release.png
 keywords: press release
-id: statement-commissioner-12-05-23
-desc: Read a statement from Commissioner Michael Webb on a sudden player change for Leagueopoly Season 2.
+id: statement-commissioner-02-15-24
+desc: Read a statement from Commissioner Michael Webb on a sudden resignation during Leagueopoly Season 2.
 author: Michael Webb
-last_modified_at: 2024-02-15
 ---
 
-<embed src="/pdf/press-statement-dec-5-23.pdf" width="800" height="700" type="application/pdf">
+<embed src="/pdf/press-statement-feb-15-24.pdf" width="800" height="700" type="application/pdf">
 
 # References/Links
 - [Leagueopoly Handbook - Season 2](https://docs.google.com/document/d/1i7jF88yNu2AcxKogm39uCA1eF3qLij6mPUU2RDwps6g/edit?usp=sharing)
