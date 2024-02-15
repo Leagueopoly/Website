@@ -11,7 +11,17 @@ author: Michael Webb
 last_modified_at: 2024-02-15
 ---
 
-<embed src="/pdf/press-statement-dec-5-23.pdf" width="800" height="700" type="application/pdf">
+<div>
+    Click <a href="/pdf/press-statement-dec-5-23.pdf">here</a> to read the statement if it is not embedding correctly.<br>
+</div>
+
+<iframe src="/pdf/press-statement-dec-5-23.pdf" height="650" type="application/pdf"></iframe>
+
+<style>
+    iframe {
+        width: 100%;
+    }
+</style>
 
 # References/Links
 - [Leagueopoly Handbook - Season 2](https://docs.google.com/document/d/1i7jF88yNu2AcxKogm39uCA1eF3qLij6mPUU2RDwps6g/edit?usp=sharing)
