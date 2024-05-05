@@ -23,7 +23,11 @@ layout: default
                     {% endif %}
 
                     {% if page.author %}
-                        by {{ page.author }}{% if page.last_modified_at %},{% endif %}
+                        by {{ page.author }}{% if page.last_modified_at or page.editor %},{% endif %}
+                    {% endif %}
+
+                    {% if page.editor %}
+                        edited by {{ page.editor }}{% if page.last_modified_at %},{% endif %}
                     {% endif %}
 
                     {% if page.last_modified_at %}

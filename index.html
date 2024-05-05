@@ -20,15 +20,19 @@ layout: default
 					<p class="homepage-font-size font-semibold default-text-shadow mb-1">{{ post.title }}</p>
 					<h4 class="text-gray-200 mb-2">
 						Posted on {{ post.date | date: '%B %d, %Y' }}
-	
+
 						{% if post.via %}
 							on {{ post.via }}
 						{% endif %}
 	
 						{% if post.author %}
-							by {{ post.author }}{% if post.last_modified_at %},{% endif %}
+							by {{ post.author }}{% if post.last_modified_at or post.editor %},{% endif %}
 						{% endif %}
-
+	
+						{% if post.editor %}
+							edited by {{ post.editor }}{% if post.last_modified_at %},{% endif %}
+						{% endif %}
+	
 						{% if post.last_modified_at %}
 							updated on {{ post.last_modified_at | date: '%B %d, %Y' }}
 						{% endif %}
