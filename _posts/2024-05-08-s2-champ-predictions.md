@@ -14,7 +14,7 @@ editor: Michael Webb
 The Championship is here, which means one winner will be crowned the champion of Season 2 of Leagueopoly. The editorial team here at Leagueopoly.com decided to run a poll with the players to see their predictions on who will be the champion.
 
 # How the Championship works
-In the Leagueopoly Championships-, the best two players by points in each conference are allowed to be in the championship. This is, so far, the only way that the players from other conferences can officially play against each other. This year’s championship contenders are cstro and Samuel from the Chance Conference and Scion and Tom from the Community Chest Conference. After five games, the player who receives the most points is the official champion of that season of play. Last year’s champion was Josephine from the Chance Conference.
+In the Leagueopoly Championships, the best two players by points in each conference are allowed to be in the championship. This is, so far, the only way that the players from other conferences can officially play against each other. This year’s championship contenders are cstro and Samuel from the Chance Conference and Scion and Tom from the Community Chest Conference. After five games, the player who receives the most points is the official champion of that season of play. Last year’s champion was Josephine from the Chance Conference.
 
 # Predictions
 In a poll that was given to all eight players, only one player did not vote. The results are the following:
