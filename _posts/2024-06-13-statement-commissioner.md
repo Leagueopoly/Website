@@ -14,7 +14,7 @@ author: Michael Webb and tz_scion
     Click <a href="/pdf/press-statement-jun-13-24.pdf">here</a> to read the statement if it is not embedding correctly.<br>
 </div>
 
-<iframe src="/pdf/press-statement-jun-13-24.pdf" height="650" type="application/pdf"></iframe>
+<iframe src="/pdf/press-statement-jun-13-24.pdf" height="750" type="application/pdf"></iframe>
 
 <style>
     iframe {
