@@ -93,7 +93,7 @@ But with all of the games completed, how do all of the players in both conferenc
         </td>
         <td class="flex items-center space-x-1">
             <div>
-                <img src="/img/flags/flag_gb.png" width="28" style="border: 1px solid black;" /> 
+                <img src="/img/flags/flag_uk.png" width="28" style="border: 1px solid black;" /> 
             </div>
             <div>
                 <a class="text-white underline" href="/players/tom">Tom</a>
