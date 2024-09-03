@@ -68,6 +68,11 @@ body {
     box-shadow: 0px 0px 6px 0px #000 inset;
 }
 
+.box-awards {
+    background: linear-gradient(0deg, #6997D5 0.05%, #4871A8 100%);
+    box-shadow: 0px 0px 6px 0px #000 inset;
+}
+
 .default-text-shadow {
     text-shadow: 0px 4px 4px #00000040;
 }
