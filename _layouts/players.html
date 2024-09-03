@@ -34,6 +34,27 @@ layout: default
 	</div>
 </div>
 
+{% if page.championships %}
+<div class="flex w-full rounded-2xl mt-4 box-champ sm:flex-row flex-col">
+	<div class="flex-auto">
+        <div class="sm:p-6 p-4 flex items-center space-x-2">
+            <img style="filter: drop-shadow(0px 0px 3px #00000071);" src="/img/trophy.png" class="w-[32px] h-[32px]" />
+           
+            <div class="ml-6 flex items-center">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><b class="default-text-shadow text-2xl mr-4">Leagueopoly Championships Won</b></td>
+                            <td><p class="default-text-shadow">{{ page.championships }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+	</div>
+</div>
+{% endif %}
+
 {% if page.awards %}
 
 {% assign awardBySeason = page.awards | split: "-" %}
