@@ -1,8 +1,4 @@
 ---
-permalink: /players/snhk/
-keywords: players
-layout: players
-
 player_name: SNHK
 player_id: snhk
 conf_id: past

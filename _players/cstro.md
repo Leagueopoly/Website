@@ -1,8 +1,4 @@
 ---
-permalink: /players/cstro/
-keywords: players
-layout: players
-
 player_name: cstro
 player_id: cstro
 conf_id: past

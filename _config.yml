@@ -21,7 +21,9 @@ exclude:
 collections:
   players:
     output: true
-    permalink: /players/:player_id
+    # it would be nice to use player_id here, but jekyll doesn't support that
+    # "name" is just the filename, so trm.md -> /players/trm
+    permalink: /players/:name
 
 defaults:
   - scope:
@@ -29,3 +31,5 @@ defaults:
       type: "players"
     values:
       layout: "players"
+      # not sure what keywords is used for but it was in every player, so added here -tom
+      keywords: "players"

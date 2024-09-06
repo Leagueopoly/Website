@@ -1,8 +1,4 @@
 ---
-permalink: /players/tom/
-keywords: players
-layout: players
-
 player_name: Tom
 player_id: tom
 conf_id: chest

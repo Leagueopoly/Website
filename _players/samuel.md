@@ -1,8 +1,4 @@
 ---
-permalink: /players/samuel/
-keywords: players
-layout: players
-
 player_name: Samuel
 player_id: samuel
 conf_id: chance

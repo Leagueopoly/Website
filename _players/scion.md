@@ -1,8 +1,4 @@
 ---
-permalink: /players/scion/
-keywords: players
-layout: players
-
 player_name: Scion
 player_id: scion
 conf_id: chest

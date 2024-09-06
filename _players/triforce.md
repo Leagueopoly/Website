@@ -1,8 +1,4 @@
 ---
-permalink: /players/triforce/
-keywords: players
-layout: players
-
 player_name: Triforce
 player_id: triforce
 conf_id: chest

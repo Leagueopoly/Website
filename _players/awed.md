@@ -1,8 +1,4 @@
 ---
-permalink: /players/awed/
-keywords: players
-layout: players
-
 player_name: awed
 player_id: awed
 conf_id: past

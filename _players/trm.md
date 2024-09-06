@@ -1,8 +1,4 @@
 ---
-permalink: /players/trm/
-keywords: players
-layout: players
-
 player_name: TRM
 player_id: trm
 conf_id: chance
