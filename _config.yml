@@ -17,3 +17,15 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  players:
+    output: true
+    permalink: /players/:player_id
+
+defaults:
+  - scope:
+      path: ""
+      type: "players"
+    values:
+      layout: "players"
