@@ -8,27 +8,27 @@ layout: default
 ---
 
 <div class="flex w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
-	<div class="flex-auto">
-		<div class="box-featured p-4 rounded-2xl">
-			<b class="default-text-shadow text-2xl">Players</b><br>
+    <div class="flex-auto">
+        <div class="box-featured p-4 rounded-2xl">
+            <b class="default-text-shadow text-2xl">Players</b><br>
             <p class="text-lg">Meet all the talented players of Leagueopoly, past and present.</p>
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
 
 <div class="flex mt-8 w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
-	<div class="flex-auto">
-		<div class="box-chance p-4 rounded-2xl">
-			<b class="default-text-shadow text-xl">Chance Conference</b><br>
+    <div class="flex-auto">
+        <div class="box-chance p-4 rounded-2xl">
+            <b class="default-text-shadow text-xl">Chance Conference</b><br>
             <p>Members of the Chance Conference.</p>
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
 
 <div class="flex mt-4 w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
 
     {% for player in site.players %}
-    <!-- this if statement means we don't have to make a temp collection using | where -->
+    {% comment %} this if statement means we don't have to make a temp collection using | where {% endcomment %}
     {% if player.conf_id == "chance" %}
     <div class="w-full">
         <a href="/players/{{ player.player_id }}">
@@ -44,17 +44,17 @@ layout: default
 </div>
 
 <div class="flex mt-8 w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
-	<div class="flex-auto">
-		<div class="box-chest p-4 rounded-2xl">
-			<b class="default-text-shadow text-xl">Community Chest Conference</b><br>
+    <div class="flex-auto">
+        <div class="box-chest p-4 rounded-2xl">
+            <b class="default-text-shadow text-xl">Community Chest Conference</b><br>
             <p>Members of the Community Chest Conference.</p>
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
 
 <div class="flex mt-4 w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
     {% for player in site.players %}
-    <!-- this if statement means we don't have to make a temp collection using | where -->
+    {% comment %} this if statement means we don't have to make a temp collection using | where {% endcomment %}
     {% if player.conf_id == "chest" %}
     <div class="w-full">
         <a href="/players/{{ player.player_id }}">
@@ -70,19 +70,19 @@ layout: default
 </div>
 
 <div class="flex mt-8 w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
-	<div class="flex-auto">
-		<div class="box-past p-4 rounded-2xl">
-			<b class="default-text-shadow text-xl">Previous Players</b><br>
+    <div class="flex-auto">
+        <div class="box-past p-4 rounded-2xl">
+            <b class="default-text-shadow text-xl">Previous Players</b><br>
             <p>Players from past seasons of Leagueopoly.</p>
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
 
 <div class="flex mt-4 w-full sm:w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
     {% assign counted_past = 0 %}
     {% for player in site.players %}
 
-    <!-- this if statement means we don't have to make a temp collection using | where -->
+    {% comment %} this if statement means we don't have to make a temp collection using | where {% endcomment %}
     {% if player.conf_id == "past" %}
     <div class="w-full">
         <a href="/players/{{ player.player_id }}">
@@ -94,8 +94,7 @@ layout: default
         </a>
     </div>
 
-    <!-- every Xth player, we start a new row, except for the first player -->
-    <!-- change modulo: X if things look weird -->
+    {% comment %} every Xth player, we start a new row, except for the first player {% endcomment %}
     {% assign mod = counted_past | modulo: 5 %}
     {% if mod == 0 and forloop.index0 != 0 %}
     </div>
