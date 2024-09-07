@@ -26,42 +26,21 @@ layout: default
 </div>
 
 <div class="flex mt-4 w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
-	<div class="w-full">
-        <a href="/players/trm">
-            <div class="box-trm box-player p-4 h-64 rounded-2xl">
-                <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">TRM</b>
-                </div>
-            </div>
-        </a>
-	</div>
+
+    {% for player in site.players %}
+    <!-- this if statement means we don't have to make a temp collection using | where -->
+    {% if player.conf_id == "chance" %}
     <div class="w-full">
-        <a href="/players/samuel">
-            <div class="box-samuel box-player p-4 h-64 rounded-2xl">
+        <a href="/players/{{ player.player_id }}">
+            <div class="box-{{ player.player_id }} box-player p-4 h-64 rounded-2xl">
                 <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">Samuel</b>
+                    <b class="default-text-shadow text-2xl">{{ player.player_name }}</b>
                 </div>
             </div>
         </a>
-	</div>
-    <div class="w-full">
-        <a href="/players/hydrogen">
-            <div class="box-hydrogen box-player p-4 h-64 rounded-2xl">
-                <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">Hydrogen</b>
-                </div>
-            </div>
-        </a>
-	</div>
-    <div class="w-full">
-        <a href="/players/josephine">
-            <div class="box-josephine box-player p-4 h-64 rounded-2xl">
-                <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">Josephine</b>
-                </div>
-            </div>
-        </a>
-	</div>
+    </div>
+    {% endif %}
+    {% endfor %}
 </div>
 
 <div class="flex mt-8 w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
@@ -74,42 +53,20 @@ layout: default
 </div>
 
 <div class="flex mt-4 w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
+    {% for player in site.players %}
+    <!-- this if statement means we don't have to make a temp collection using | where -->
+    {% if player.conf_id == "chest" %}
     <div class="w-full">
-        <a href="/players/scion">
-            <div class="box-scion box-player p-4 h-64 rounded-2xl">
+        <a href="/players/{{ player.player_id }}">
+            <div class="box-{{ player.player_id }} box-player p-4 h-64 rounded-2xl">
                 <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">Scion</b>
+                    <b class="default-text-shadow text-2xl">{{ player.player_name }}</b>
                 </div>
             </div>
         </a>
-	</div>
-    <div class="w-full">
-        <a href="/players/tom">
-            <div class="box-tom box-player p-4 h-64 rounded-2xl">
-                <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">Tom</b>
-                </div>
-            </div>
-        </a>
-	</div>
-    <div class="w-full">
-        <a href="/players/triforce">
-            <div class="box-triforce box-player p-4 h-64 rounded-2xl">
-                <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">Triforce</b>
-                </div>
-            </div>
-        </a>
-	</div>
-    <div class="w-full">
-        <a href="/players/rose">
-            <div class="box-rose box-player p-4 h-64 rounded-2xl">
-                <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">Rose</b>
-                </div>
-            </div>
-        </a>
-	</div>
+    </div>
+    {% endif %}
+    {% endfor %}
 </div>
 
 <div class="flex mt-8 w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
@@ -122,52 +79,30 @@ layout: default
 </div>
 
 <div class="flex mt-4 w-full sm:w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
-    <div class="w-full">
-        <a href="/players/snhk">
-            <div class="box-snhk box-player p-4 h-64 rounded-2xl">
-                <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">SNHK</b>
-                </div>
-            </div>
-        </a>
-	</div>
-    <div class="w-full">
-        <a href="/players/jay">
-            <div class="box-jay box-player p-4 h-64 rounded-2xl">
-                <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">Jay</b>
-                </div>
-            </div>
-        </a>
-	</div>
-	<div class="w-full">
-        <a href="/players/inkydink">
-            <div class="box-inkydink box-player p-4 h-64 rounded-2xl">
-                <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">Inkydink</b>
-                </div>
-            </div>
-        </a>
-	</div>
-</div>
+    {% assign counted_past = 0 %}
+    {% for player in site.players %}
 
-<div class="flex mt-4 w-full sm:w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
+    <!-- this if statement means we don't have to make a temp collection using | where -->
+    {% if player.conf_id == "past" %}
     <div class="w-full">
-        <a href="/players/awed">
-            <div class="box-awed box-player p-4 h-64 rounded-2xl">
+        <a href="/players/{{ player.player_id }}">
+            <div class="box-{{ player.player_id }} box-player p-4 h-64 rounded-2xl">
                 <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">awed</b>
-                </div>
-            </div>
-        </a>
-	</div>
-    <div class="w-full">
-        <a href="/players/cstro">
-            <div class="box-cstro box-player p-4 h-64 rounded-2xl">
-                <div class="justify-center items-end w-full h-full flex">
-                    <b class="default-text-shadow text-2xl">cstro</b>
+                    <b class="default-text-shadow text-2xl">{{ player.player_name }}</b>
                 </div>
             </div>
         </a>
     </div>
+
+    <!-- every Xth player, we start a new row, except for the first player -->
+    <!-- change modulo: X if things look weird -->
+    {% assign mod = counted_past | modulo: 5 %}
+    {% if mod == 0 and forloop.index0 != 0 %}
+    </div>
+    <div class="flex mt-4 w-full sm:w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
+    {% endif %}
+    
+    {% assign counted_past = counted_past | plus: 1  %}
+    {% endif %}
+    {% endfor %}
 </div>
