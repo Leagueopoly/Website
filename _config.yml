@@ -17,3 +17,20 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  players:
+    output: true
+    sort_by: player_name
+    # it would be nice to use player_id here, but jekyll doesn't support that
+    # "name" is just the filename, so trm.md -> /players/trm
+    permalink: /players/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "players"
+    values:
+      layout: "players"
+      # not sure what keywords is used for but it was in every player, so added here -tom
+      keywords: "players"

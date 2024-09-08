@@ -1,11 +1,7 @@
 ---
-permalink: /players/rose/
-keywords: players
-layout: players
-
 player_name: Rose
 player_id: rose
-conf_id: chance
+conf_id: chest
 conference: Chance Conference
 nationality: American
 activities: Music Listening and Gaming

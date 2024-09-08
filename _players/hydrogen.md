@@ -1,8 +1,4 @@
 ---
-permalink: /players/hydrogen/
-keywords: players
-layout: players
-
 player_name: Hydrogen
 player_id: hydrogen
 conf_id: chance

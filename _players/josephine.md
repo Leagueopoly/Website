@@ -1,8 +1,4 @@
 ---
-permalink: /players/josephine/
-keywords: players
-layout: players
-
 player_name: Josephine
 player_id: josephine
 conf_id: chance

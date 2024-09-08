@@ -1,8 +1,4 @@
 ---
-permalink: /players/inkydink/
-keywords: players
-layout: players
-
 player_name: Inkydink
 player_id: inkydink
 conf_id: past

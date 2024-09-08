@@ -1,8 +1,4 @@
 ---
-permalink: /players/jay/
-keywords: players
-layout: players
-
 player_name: Jay
 player_id: jay
 conf_id: past
