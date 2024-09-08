@@ -2,7 +2,7 @@
 player_name: Rose
 player_id: rose
 conf_id: chest
-conference: Chance Conference
+conference: Community Chest Conference
 nationality: American
 activities: Music Listening and Gaming
 website: N/A
