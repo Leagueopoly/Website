@@ -1,8 +1,8 @@
 ---
 player_name: Hydrogen
 player_id: hydrogen
-conf_id: chance
-conference: Chance Conference
+conf_id: past
+conference: Chance Conference (Seasons 2 and 3)
 nationality: Albanian
 activities: Coding Tings, Noted Albanian
 website: thehydrogen.xyz

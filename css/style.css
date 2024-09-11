@@ -194,6 +194,10 @@ body {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/nox.png'), lightgray 50% / cover no-repeat;
 }
 
+.box-calvin { 
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), url('/img/players/calvin.png'), lightgray 50% / cover no-repeat;
+}
+
 .box-player {
     background-repeat: no-repeat;
     background-position: center center;
