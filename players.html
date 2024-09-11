@@ -95,7 +95,7 @@ layout: default
     </div>
 
     {% comment %} every Xth player, we start a new row, except for the first player {% endcomment %}
-    {% assign mod = counted_past | modulo: 5 %}
+    {% assign mod = counted_past | modulo: 4 %}
     {% if mod == 0 and forloop.index0 != 0 %}
     </div>
     <div class="flex mt-4 w-full sm:w-full sm:space-x-4 sm:space-y-0 space-y-4 sm:flex-row flex-col">
