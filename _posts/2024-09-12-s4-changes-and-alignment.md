@@ -8,6 +8,7 @@ keywords: announcement, leagueopoly announcement, new players, conference alignm
 id: s4-changes-and-alignments
 desc: Leagueopoly Season 4 is coming this fall! Here are the new players and conference alignments for the season, along with new rules being implemented this season.
 author: Michael Webb
+last_modified_at: 2024-09-13
 ---
 
 Hello everyone,
@@ -22,12 +23,12 @@ I, as Commissioner of Leagueopoly, am proud to announce the following:
 Let's also discuss what rule changes the Players' Commission has agreed to for this season:
 
 # Rule Votes and Changes
-1. The players voted to approve a proposal (6 yes, 1 did not vote, 1 abstained) that changes the points earned per game to a total of 20, distributed in the following way: 1st place - 10 points, 2nd place - 6 points, 3rd place - 3 points, 4th place - 1 point. This was done to better balance how players are rewarded on a per-game basis, and allow those who get unlucky early on with a better chance of catching up later in the season.
-2. The players voted unanimously (7 yes, 1 did not vote) to modify the point total for 3-player games to add 1 point per placing compared to before: 1st place - 9 points, 2nd place - 5 points, 3rd place - 2 points. The player who doesn't join will still obtain 4th place and earn 0 points.
-3. The players voted unanimously (7 yes, 1 did not vote) to add a new provision to Rule B (Player Pieces) to allow the Commissioner to force a player or players to change colors for a game and/or the season if a color combination is deemed inaccessible. This was done to aid accessibility for Leagueopoly for colorblind players and viewers.
-4. The players voted unanimously (7 yes, 1 did not vote) to add a new provision to Rule C (Trading) that one player cannot bail out another player for three trades within a short timeframe. This timeframe is determined by the Commissioner and/or the Director of Operations on a case-by-case basis, and was done to close a loophole in the rules that was exploited last season to allow players to stay articifically in the game in violation of the spirit of a rule that is made to prevent players who are bankrupt from selling off their properties to someone else.
+1. The players voted to approve a proposal (7 yes, 1 abstained) that changes the points earned per game to a total of 20, distributed in the following way: 1st place - 10 points, 2nd place - 6 points, 3rd place - 3 points, 4th place - 1 point. This was done to better balance how players are rewarded on a per-game basis, and allow those who get unlucky early on with a better chance of catching up later in the season.
+2. The players voted unanimously (8 yes, 0 no) to modify the point total for 3-player games to add 1 point per placing compared to before: 1st place - 9 points, 2nd place - 5 points, 3rd place - 2 points. The player who doesn't join will still obtain 4th place and earn 0 points.
+3. The players voted unanimously (8 yes, 0 no) to add a new provision to Rule B (Player Pieces) to allow the Commissioner to force a player or players to change colors for a game and/or the season if a color combination is deemed inaccessible. This was done to aid accessibility for Leagueopoly for colorblind players and viewers.
+4. The players voted unanimously (8 yes, 0 no) to add a new provision to Rule C (Trading) that one player cannot bail out another player for three trades within a short timeframe. This timeframe is determined by the Commissioner and/or the Director of Operations on a case-by-case basis, and was done to close a loophole in the rules that was exploited last season to allow players to stay articifically in the game in violation of the spirit of a rule that is made to prevent players who are bankrupt from selling off their properties to someone else.
 
-While not a rule change, the Players also voted on Measure 5 (7 yes, 1 did not vote) to approve the above conference alignment for Season 4.
+While not a rule change, the Players also voted on Measure 5 (8 yes, 0 no) to approve the above conference alignment for Season 4.
 
 That's all for now! We'll announce the date and time for the first games of the season as soon as they're available! Thank you for your support of Leagueopoly!
 
