@@ -1,8 +1,8 @@
 ---
 player_name: TRM
 player_id: trm
-conf_id: chance
-conference: Chance Conference
+conf_id: chest
+conference: Community Chest Conference
 nationality: American (Wisconsin)
 activities: Leagueopoly Commissioner, YouTuber, Twitch Streamer, Video Creator, etc
 website: youtube.com/therandommelon

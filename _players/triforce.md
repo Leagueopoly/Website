@@ -1,8 +1,8 @@
 ---
 player_name: Triforce
 player_id: triforce
-conf_id: chest
-conference: Community Chest Conference
+conf_id: chance
+conference: Chance Conference
 nationality: American (Texas)
 activities: Competitive Splatoon, Twitch Streaming
 website: twitch.tv/triforcecomet

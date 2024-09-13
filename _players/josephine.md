@@ -1,8 +1,8 @@
 ---
 player_name: Josephine
 player_id: josephine
-conf_id: chance
-conference: Chance Conference (Season 1, 2 and 3)
+conf_id: chest
+conference: Community Chest Conference
 nationality: American
 activities: Musician
 website: zleepyheadzoloft.bandcamp.com
