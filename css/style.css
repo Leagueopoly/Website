@@ -26,11 +26,15 @@ body {
 }
 
 .grad-twitter {
-    background: linear-gradient(0deg, #206C9B 0.01%, #1DA1F2 100%);
+    background: linear-gradient(0deg, #206C9B 0%, #1DA1F2 100%);
+}
+
+.grad-bluesky {
+    background: linear-gradient(0deg, #14579d 0%, #208bfe 100%);
 }
 
 .grad-youtube {
-    background: linear-gradient(0deg, #9C0F0F 0.01%, #F00 100%);
+    background: linear-gradient(0deg, #9C0F0F 0%, #F00 100%);
 }
 
 .grad-twitch {
@@ -75,7 +79,7 @@ body {
 }
 
 .box-awards {
-    background: linear-gradient(0deg, #6997D5 0.05%, #4871A8 100%);
+    background: linear-gradient(0deg, #6997D5 0%, #4871A8 100%);
     box-shadow: 0px 0px 6px 0px #000 inset;
 }
 
